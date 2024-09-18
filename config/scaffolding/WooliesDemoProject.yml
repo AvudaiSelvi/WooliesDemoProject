@@ -13,6 +13,11 @@ packages:
   gitUrl: https://github.com/AvudaiSelvi
   gitUsername: AvudaiSelvi
   gitBranch: main
+- name: WmTNMigration
+  gitServerName: SelviGitHub
+  gitUrl: https://github.com/AvudaiSelvi
+  gitUsername: AvudaiSelvi
+  gitBranch: main
 services:
 - serviceName: project.wooliesdemo.integrations:getDetailsFromDB
   packages:
