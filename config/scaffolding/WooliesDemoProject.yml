@@ -7,3 +7,8 @@ packages:
   gitUrl: https://github.com/AvudaiSelvi/WooliesDemoProject
   gitUsername: AvudaiSelvi
   gitBranch: main
+- name: DemoAssets
+  gitServerName: woolies_demo_selvi
+  gitUrl: https://github.com/AvudaiSelvi
+  gitUsername: AvudaiSelvi
+  gitBranch: main
