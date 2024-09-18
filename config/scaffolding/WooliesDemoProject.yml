@@ -8,7 +8,27 @@ packages:
   gitUsername: AvudaiSelvi
   gitBranch: main
 - name: DemoAssets
+  version: "1.0"
   gitServerName: woolies_demo_selvi
   gitUrl: https://github.com/AvudaiSelvi
   gitUsername: AvudaiSelvi
   gitBranch: main
+services:
+- serviceName: project.wooliesdemo.integrations:getDetailsFromDB
+  packages:
+  - name: WooliesDemoProject
+    version: "1.0"
+  - name: DemoAssets
+    version: "1.0"
+- serviceName: DemoAssets:getUserDetailFromDB
+  packages:
+  - name: DemoAssets
+    version: "1.0"
+- serviceName: DemoAssets:getUserDetails
+  packages:
+  - name: DemoAssets
+    version: "1.0"
+- serviceName: pub.flow:debugLog
+  packages:
+  - name: WmPublic
+    version: 11.0.0.0.1018
