@@ -1,0 +1,9 @@
+version: "1.0"
+info:
+  model: int-scaffold
+packages:
+- name: WooliesDemoProject
+  gitServerName: woolies_demo_selvi
+  gitUrl: https://github.com/AvudaiSelvi/WooliesDemoProject
+  gitUsername: AvudaiSelvi
+  gitBranch: main
